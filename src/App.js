@@ -1,29 +1,36 @@
 import React from "react";
-import Accordion from "./components/Accordion";
+// import Accordion from "./components/Accordion";
 import Search from "./components/Search";
+import Dropdown from "./components/Dropdown";
 
-const items = [
-  {
-    title: 'what is React',
-    content: 'React is frontend Javascript framework'
-  },
-  {
-    title: 'why use React',
-    content: 'React is a favourite JS library among engineers'
-  },
-  {
-    title: 'How do you use React',
-    content: 'You use React by creating component'
-  }
+// Accordion properties
+// const items = [
+//   {
+//     title: 'what is React',
+//     content: 'React is frontend Javascript framework'
+//   },
+//   {
+//     title: 'why use React',
+//     content: 'React is a favourite JS library among engineers'
+//   },
+//   {
+//     title: 'How do you use React',
+//     content: 'You use React by creating component'
+//   }
 
-]
+// ]
 
-export default () => {
+function App() {
   return (
     <div>
-
-      <br />
+      {/* <Dropdown/> */}
+      {/* <Accordion/> */}
       <Search/>
     </div>
-  );
-};
+  )
+}
+
+
+export default App
+
+
