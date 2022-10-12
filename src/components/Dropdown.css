@@ -1,0 +1,11 @@
+.form {
+    width: 50%;
+    background-color: blue;
+    height: 5rem;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.item:hover{
+    background-color: aqua;
+}
